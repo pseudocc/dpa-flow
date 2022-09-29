@@ -1,0 +1,25 @@
+diff --git a/debian/changelog b/debian/changelog
+index 9dccc0c..c6aa903 100644
+--- a/debian/changelog
++++ b/debian/changelog
+@@ -1,3 +1,9 @@
++quotez (0.3.0-rm2) jammy; urgency=medium
++
++  * Upsteam 0.2.2 -> 0.3.0.
++
++ -- Atlas Yu <atlas.yu@canonical.com>  Thu, 29 Sep 2022 09:39:52 +0800
++
+ quotez (0.2.2-rm2) jammy; urgency=medium
+ 
+   * Remove 1 more quote.
+diff --git a/debian/control b/debian/control
+index 4064980..37a519f 100644
+--- a/debian/control
++++ b/debian/control
+@@ -1,5 +1,5 @@
+ Source: quotez
+-Standards-Version: 0.2.2
++Standards-Version: 0.3.0
+ Section: misc
+ Priority: optional
+ Maintainer: Atlas Yu <atlas.yu@canonical.com>
